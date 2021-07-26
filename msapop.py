@@ -22,7 +22,7 @@ import numpy as np
 
 
 # change directory
-os.chdir( 'Z:\\wilki341\ds\cbsa' )
+os.chdir( '' )
 
 
 # url to msa definitions file
@@ -100,7 +100,7 @@ msapopxw['ctyfips']=msapopxw['ctyfips'].apply(lambda x: int(x))
 
 
 '''
-export to json for use in ml models
+export to json
 '''
 with open( 'msapop.json' , 'w' ) as f:
     json.dump( msapopxw.to_dict(orient='records') , f , indent = 4 )
