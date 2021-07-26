@@ -5,7 +5,7 @@ msa population
 
 NOTES:
 msa definitions based on april 2018 omb release (see 'msadefs' variable below).
-population size taken census population totals 2010-2019 for each county and
+population size taken from census population totals 2010-2019 for each county and
 summed by msa 
 
 Created on Fri Jun  4 13:06:02 2021
